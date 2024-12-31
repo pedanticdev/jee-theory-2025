@@ -1,0 +1,21 @@
+### Create a todo file
+POST http://localhost:8081/resources/todo
+Content-Type: application/json
+Accept: application/json
+
+{
+  "todo": "Finish Jakarta EE Jumpstart Course",
+  "dueDate": "2024-06-30"
+}
+
+### Fetch all todos
+GET http://localhost:8081/resources/todo
+Content-Type: application/json
+
+### Hello
+GET http://localhost:8081/resources/hello
+Content-Type: application/json
+
+### Custom greeting
+GET http://localhost:8081/resources/hello/greet/luqman
+Content-Type: application/json
